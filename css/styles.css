@@ -265,8 +265,12 @@ input[type = "text"] {
 /* FOOTER */
 
 footer{
+    position: relative;
     height: 260px;
+    width : 100% ;
+    bottom: 0;
     background-color: #444;
+    
     
 }
 footer h1{
@@ -279,4 +283,11 @@ footer h1{
     font-weight: bold;
     padding-top: 30px;
     color: #777;
+}
+
+.footer-Destinations{
+    position: relative;
+    bottom: 0;
+
+    
 }
