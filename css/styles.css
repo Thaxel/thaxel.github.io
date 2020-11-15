@@ -291,3 +291,77 @@ footer h1{
 
     
 }
+
+/* PAGE DESTINATIONS  */
+
+#destinations{
+    background-color: #efefef;
+}
+
+#destinations .wrapper .grid_4	{ 
+    position: relative;
+    width: 960px;
+    padding: 0; 
+    width: 300px; 
+    padding-bottom: 160px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -120px;
+}
+.banners {
+    width: 960px;
+    height: 1100px;
+    overflow: hidden;
+    padding-top: 160px;
+}
+.banners .banner {
+    top: 0;
+}
+.grid_4{
+    width: 300px;
+}
+.banner {
+    width: 300px;
+    height: 364px;
+    position: relative;
+}
+.banner .label {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 50%;
+    margin-top: -38px;
+    right: 0;
+    text-transform: uppercase;
+}
+.banner img {
+    width: 100%;
+}
+.banner .label .title {
+    font-size: 30px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+.banner .label .price span {
+    display: block;
+    font-size: 24px;
+    padding-top: 3px;
+}
+.banner a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #c73430;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #e5e5e5;
+    padding: 5px 18px 4px;
+    margin-top: 25px;
+    border-radius: 13px;
+}
+.banner a:hover {
+    background-color: #c73430;
+    color: #fff;
+}
