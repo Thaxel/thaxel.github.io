@@ -92,11 +92,10 @@ header nav ul li a:hover{
 /* CONTACT */
 
 #contact{
-    height: 250px;
+    height: 363px;
     padding: 125px 0;
     text-align: center;
     background-color: #efefef;
-    padding-bottom: 250px;
     
 }
 #contact h3{
