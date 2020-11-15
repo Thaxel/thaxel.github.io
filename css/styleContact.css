@@ -92,7 +92,7 @@ header nav ul li a:hover{
 /* CONTACT */
 
 #contact{
-    height: 363px;
+    height: 307px;
     padding: 125px 0;
     text-align: center;
     background-color: #efefef;
@@ -144,9 +144,10 @@ input[type = "text"] {
 footer{
     height: 260px;
     background-color: #444;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 0px;
     
 }
 footer h1{
