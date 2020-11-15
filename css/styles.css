@@ -222,7 +222,7 @@ article h4{
     text-align: center;
 }
 #contact h3{
-    width: 400px;
+    width: 30%;
     text-transform: uppercase;
     margin: 0 auto 20px auto;
     border-bottom: 1px solid #02b8dd;
@@ -327,6 +327,35 @@ footer h1{
     height: 364px;
     position: relative;
 }
+.banner .label-description {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 60%;
+    margin-top: -38px;
+    right: 0;
+    text-transform: uppercase;
+}
+.banner .label-title{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    left: 0;
+    margin-top: -246px;
+    right: 0;
+    text-transform: uppercase;
+}
+.banner .label-compound-title{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    left: 0;
+    margin-top: -280px;
+    right: 0;
+    text-transform: uppercase;
+}
+
 .banner .label {
     color: #fff;
     position: absolute;
@@ -340,15 +369,10 @@ footer h1{
 .banner img {
     width: 100%;
 }
-.banner .label .title {
-    font-size: 30px;
-    margin-bottom: 14px;
-    text-transform: uppercase;
-}
-.banner .label .price span {
+.banner .label-description .price span {
     display: block;
     font-size: 24px;
-    padding-top: 3px;
+    margin-top: -20px;
 }
 .banner a {
     font-size: 14px;
