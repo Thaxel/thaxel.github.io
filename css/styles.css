@@ -7,9 +7,10 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 15px;
+    
 
 }
-h1, h2,h3,h4{
+h1,h3,h4{
     color: #444;
 
 }
@@ -18,9 +19,9 @@ h1{
     font-size: 45px;
 
 }
-h2{
+h2 {
     font-size: 55px;
-
+    color: white;
 }
 h3{
     font-size: 30px;
@@ -92,7 +93,7 @@ header nav ul li a:hover{
 /* MAIN IMAGE */
 #main-image{
     height: 580px;
-    background : url("../img/main.jpg") center;
+    background : url("../img/main.png") center;
 }
 #main-image h2{
     font-weight: normal;
